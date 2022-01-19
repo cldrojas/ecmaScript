@@ -66,8 +66,7 @@ const helloPromise = () => {
 helloPromise()
   .then((response) => console.log(response))
   .then(() => console.log("this code runs after the first promise"))
-  .catch((error) => console.log(error))
-  .finally(() => console.log(" "));
+  .catch((error) => console.log(error));
 
 // classes
 class entity {
