@@ -1,8 +1,8 @@
-//
-//
-// EcmaScript 6 - released on: 2015
-//
-//
+/* 
+
+EcmaScript 6 - released on: 2015
+
+*/
 
 //default params
 const aFunction = (name = "Daniel", age = 26, country = "CL") => {
